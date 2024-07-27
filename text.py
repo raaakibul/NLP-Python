@@ -7,3 +7,8 @@ print(f"my number is {d['a']}")
 mylist = [0,1,2]
 print(f"my number is {mylist[1]}")
 
+library = [('Author', 'Topic' ,'Pages'), ('Twain', 'Rafting', 506),('Feyman', 'Physics',214)]
+print(library)
+
+for author, topic, pages in library:
+    print(f"{author} {topic} {pages}")
