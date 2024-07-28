@@ -13,4 +13,6 @@ print(library)
 for author, topic, pages in library:
     print(f"{author:{10}} {topic:{30}} {pages:->{10}}")
     
-
+from datetime import datetime 
+today = datetime(year=2019, month=5,day=31)
+print(f"{today:%B %d %Y}")
