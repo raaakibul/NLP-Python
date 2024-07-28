@@ -11,6 +11,6 @@ library = [('Author', 'Topic' ,'Pages'), ('Twain', 'Rafting', 506),('Feyman', 'P
 print(library)
 
 for author, topic, pages in library:
-    print(f"{author:{10}} {topic:{30}} {pages:>{10}}")
+    print(f"{author:{10}} {topic:{30}} {pages:->{10}}")
     
 
